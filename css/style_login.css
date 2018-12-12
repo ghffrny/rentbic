@@ -1,0 +1,105 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body{
+  background: url("../images/bg2.jpg");
+  background-size: cover;
+}
+
+h1{
+  font-size: 50px;
+  margin-top: 30px;
+  text-align: center;
+  color: #fff;
+}
+
+div.box-login{
+  width: 350px;
+  margin: 50px auto 0;
+  border-radius: 10px;
+  min-height: 256px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+div.box-login-header{
+  background: rgba(248, 181, 0, 0.9);
+  padding: 10px 22px;
+  height: 60px;
+}
+
+div.box-login-header h2.judul{
+  color: #fff;
+  font-weight: normal;
+  line-height: 40px;
+  display: inline-block;
+}
+
+div.header-log{
+  background-image: url("../images/lock.png");
+  background-position: center;
+  background-size: 38px;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin-top: 8px;
+  float: left;
+  margin-right: 10px;
+}
+
+div.log-in{
+  padding:10px 22px 0;
+  color: #fff;
+}
+
+div.log-in div.group{
+  margin: 16px 0;
+}
+
+div.log-in div.group label,
+div.log-in div.group input{
+  display: block;
+}
+
+div.log-in div.group label{
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+div.log-in div.group input[type="text"],
+div.log-in div.group input[type="password"]{
+  width: 100%;
+  height: 30px;
+  padding: 0 10px;
+  background: rgba(153, 153, 153, 0.3);
+  border:none;
+  color: #fff;
+}
+
+div.log-in div.group input[type="submit"]{
+  background: #f8b500;
+  padding: 4px 16px;
+  margin: 0 auto;
+  border: 1px solid #f8b500;
+  border-radius: 2px;
+  color: #fff;
+  cursor: pointer;
+}
+
+div.log-in div.group input[type="submit"]:hover{
+  background: #f7aa00;
+}
+
+div.signup p{
+  font-size: 13px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+div.signup a{
+  color: #fff;
+}
